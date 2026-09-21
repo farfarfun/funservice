@@ -2,10 +2,18 @@
 
 占位仓库，尚无实际功能代码。发布这个空壳版本只是为了在 PyPI 上保留 `funservice` 这个包名，避免被无关项目抢注；具体功能会在之后陆续补充。
 
-## Install
+## 安装
 
 ```bash
-pip install funservice
+uv add funservice
+```
+
+## 最小示例
+
+```python
+import funservice
+
+print(funservice.__version__)
 ```
 
 ---
