@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-uv add funservice
+python -m pip install funservice
 ```
 
 ## 最小示例
